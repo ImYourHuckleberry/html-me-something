@@ -5,8 +5,10 @@ body {
     background-color: cornsilk
 
     ;
-	font-size: 80%;
+	font-size: 1.2em;
 }
+
+a:hover {color: #f00}
 
 header,
 
@@ -24,11 +26,13 @@ footer,
 
 header h1 {
     text-align: center;
-    
+	color: #ff0000
+
+	
 }
 
 h1, h3 {
-	margin: 2em;
+	margin: .33em;
 }
 
 h1 {
@@ -52,12 +56,21 @@ nav ul {
 nav ul li {
 	
 	margin-right: 2em;
-    font-size: 1em;
-   
+	font-size: 1em;
+	background-color: #ccc;
+	border-top: 1px solid #777;
+	padding: 5px 0
+}
+li {
+	padding: .6em 0 .3em
 }
 
+	
+   
+
+
 p {
-    padding-left: 1.25em;
+    
     margin: 2em
 }
 
@@ -95,4 +108,10 @@ img {
 	body {
 		font-size: 50%;
 	}
+}
+
+.list {
+	background-color: #ECDEDE;
+	padding: 2em;
+	margin: 2em 
 }
